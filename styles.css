@@ -6,7 +6,9 @@ body {
 
 header {
   display: flex;
+  flex-direction: row;
   padding-left: 14.2em;
+  width: 100%;
 }
 
 input {
