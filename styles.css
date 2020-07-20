@@ -1,4 +1,8 @@
 /* HEADER SECTION */
+body {
+  font-family: "Rajdhani";
+}
+
 
 header {
   display: flex;
@@ -16,8 +20,9 @@ input {
 }
 
 ::placeholder {
+  font-family: "Rajdhani";
   font-size: 2em;
-  color: violet;
+  color: #FF00FF;
 }
 
 .headerbutton {
@@ -31,6 +36,7 @@ input {
   padding-right: .5em;
   margin: -.1em;
   font-size: 2.5em;
+  font-family: "Rajdhani";
 }
 
 .buttonimg {
@@ -66,15 +72,47 @@ input {
   font-size: 1.2em;
 }
 
-.sidenav .mainlist {
+.sidenav .mainlist1 {
   color: #818181;
   padding-left: .7em;
   font-size: 1em;
-
 }
 
-.sidenav .mainlist:hover {
-  color: #f1f1f1;
+.sidenav .mainlist2 {
+  color: #818181;
+  padding-left: .7em;
+  font-size: 1em;
+}
+
+.sidenav .mainlist3 {
+  color: #818181;
+  padding-left: .7em;
+  font-size: 1em;
+}
+
+.sidenav .mainlist4 {
+  color: #818181;
+  padding-left: .7em;
+  font-size: 1em;
+}
+
+.sidenav .mainlist1:hover {
+  color: #FF00FF;
+  text-decoration: underline;
+}
+
+.sidenav .mainlist2:hover {
+  color: #00FFFF ;
+  text-decoration: underline;
+}
+
+.sidenav .mainlist3:hover {
+  color: #00FF66;
+  text-decoration: underline;
+}
+
+.sidenav .mainlist4:hover {
+  color: #6633CC;
   text-decoration: underline;
 }
 
@@ -90,11 +128,13 @@ hr.solid {
 }
 
 img.logo {
-  border: .1em solid #bbb;
-  border-radius: 5em;
-  padding: 4em;
-  margin-left: 3em;
+  /* border: .1em solid #bbb; */
+  /* border-radius: 5em; */
+  /* padding: 4em; */
+  margin-left: 2em;
   margin-top: .5em;
+  width: 10em;
+  height: 10em;
 }
 
 .dropbtn {
@@ -105,6 +145,7 @@ img.logo {
   font-size: 1em;
   border: none;
   text-decoration: underline;
+  font-family: "Rajdhani";
 }
 
 .dropdown {
@@ -121,6 +162,7 @@ img.logo {
   /* z-index: 1; */
   color: #fff;
   align: center;
+  font-family: "Rajdhani";
 }
 
 .dropdown-content a {
@@ -134,8 +176,20 @@ img.logo {
   font-size: .6em;
 }
 
-.dropdown-content a:hover {
-  color: grey;
+.dropdown-content .one:hover {
+  color: #FF00FF;
+}
+
+.dropdown-content .two:hover {
+  color: #00FF66;
+}
+
+.dropdown-content .three:hover {
+  color: #6633CC;
+}
+
+.dropdown-content .four:hover {
+  color: #00FFFF;
 }
 
 .dropdown:hover .dropdown-content {
@@ -164,7 +218,7 @@ main {
 }
 
 .highlight {
-  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, violet 50%);
+  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #FF00FF 50%);
 }
 
 .location {
@@ -174,20 +228,65 @@ main {
   color: grey;
 }
 
-.pagesbutton {
+.pages {
+  margin-top: -4em;
+}
+
+.pagesbutton1 {
+  margin-top: 6em;
+  margin-left: 3em;
+  margin-right: 3em;
+  /* background: transparent; */
+  border: none;
+  font-family: "Rajdhani";
+  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #FF00FF 50%);
+}
+
+.pagesbutton2 {
   margin-top: 6em;
   margin-left: 3em;
   margin-right: 3em;
   background: transparent;
   border: none;
-  /* border-bottom: 3px solid grey;
-  border-top: 3px solid grey; */
+  font-family: "Rajdhani";
 }
 
-.pagesbutton:hover {
+.pagesbutton3 {
   margin-top: 6em;
-  /* color: violet; */
-  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, violet 50%);
+  margin-left: 3em;
+  margin-right: 3em;
+  background: transparent;
+  border: none;
+  font-family: "Rajdhani";
+}
+
+.pagesbutton4 {
+  margin-top: 6em;
+  margin-left: 3em;
+  margin-right: 3em;
+  background: transparent;
+  border: none;
+  font-family: "Rajdhani";
+}
+
+/* .pagesbutton1:hover {
+  margin-top: 6em;
+  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #FF00FF 50%);
+} */
+
+.pagesbutton2:hover {
+  margin-top: 6em;
+  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #00FF66 50%);
+}
+
+.pagesbutton3:hover {
+  margin-top: 6em;
+  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #6633CC 50%);
+}
+
+.pagesbutton4:hover {
+  margin-top: 6em;
+  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #00FFFF 50%);
 }
 
 .circles {
@@ -199,25 +298,26 @@ main {
 .circle {
   /* padding: 6em; */
   margin-top: 4em;
-  margin-left: 2em;
+  margin-left: 8em;
   width: 15em;
   height: 15em;
   /* background: white; */
 }
 
-.rectangle {
+/* .rectangle {
   border: .1em solid black;
   background: white;
   width: 23em;
   height: 11em;
   margin-top: 5em;
   margin-left: 4em;
-}
+} */
 
 .personal-profile {
   display: flex;
   width: 104.2%;
   position: fixed;
+  /* margin-top: -1em; */
   margin-left: -3em;
   max-width: ;
   background-image: url('https://64.media.tumblr.com/d2863cc738171946a23bc47b11aa4698/e66d2c964f0b8e51-31/s1280x1920/8572c7c4661c3b1c2e0fbe518dd86cf8d85edde0.jpg');
