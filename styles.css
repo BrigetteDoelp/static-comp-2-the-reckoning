@@ -1,0 +1,246 @@
+/* HEADER SECTION */
+
+header {
+  display: flex;
+  padding-left: 14.2em;
+}
+
+input {
+  padding-left: 2em;
+  padding-right: 47.3em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  top: 0;
+  border: none;
+  /* border-bottom: 1px solid grey; */
+}
+
+::placeholder {
+  font-size: 2em;
+  color: violet;
+}
+
+.headerbutton {
+  border-top: none;
+  border-bottom: 1px solid grey;
+  border-right: 1px solid grey;
+  border-left: 1px solid grey;
+  padding-top: .30em;
+  padding-bottom: .28em;
+  padding-left: .5em;
+  padding-right: .5em;
+  margin: -.1em;
+  font-size: 2.5em;
+}
+
+.buttonimg {
+  height: 25px;
+  width: 25px;
+}
+
+/* SIDENAV SECTION */
+
+.sidenav {
+  height: 100%;
+  width: 14em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  /* overflow-x: hidden; */
+  /* padding-top: 2em;
+  padding-right: 3em; */
+}
+
+.sidenav h5:hover {
+  color: #f1f1f1;
+}
+
+.menu {
+  line-height: .5em;
+}
+
+.sidenav .mainmenu {
+  color: #818181;
+  padding: 17em 0 1.5em 2.6em;
+  font-size: 1.2em;
+}
+
+.sidenav .mainlist {
+  color: #818181;
+  padding-left: .7em;
+  font-size: 1em;
+
+}
+
+.sidenav .mainlist:hover {
+  color: #f1f1f1;
+  text-decoration: underline;
+}
+
+
+@media screen and (max-height: 10em) {
+  .sidenav {padding-top: 2em;}
+  .sidenav h5 {font-size: 2.5em;}
+}
+
+hr.solid {
+  border-top: .2em solid #bbb;
+  width: 9.9em;
+}
+
+img.logo {
+  border: .1em solid #bbb;
+  border-radius: 5em;
+  padding: 4em;
+  margin-left: 3em;
+  margin-top: .5em;
+}
+
+.dropbtn {
+  background-color: #111;
+  color: white;
+  padding-top: 1em;
+  padding-left: 3em;
+  font-size: 1em;
+  border: none;
+  text-decoration: underline;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  padding-left: 1em;
+  min-width: 3em;
+  /* z-index: 1; */
+  color: #fff;
+  align: center;
+}
+
+.dropdown-content a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  font-size: 1.3em;
+}
+
+.dropdown-content p {
+  font-size: .6em;
+}
+
+.dropdown-content a:hover {
+  color: grey;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #111;
+}
+
+.disabled {
+  text-decoration: line-through;
+}
+
+main {
+  padding-left: 17em;
+  padding-top: 3em;
+  line-height: .5em;
+}
+
+.agent-name p {
+  font-size: .4em;
+  padding-left: 1em;
+  display: inline;
+  color: grey;
+}
+
+.highlight {
+  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, violet 50%);
+}
+
+.location {
+  font-size: 1em;
+  padding-left: 2em;
+  display: inline;
+  color: grey;
+}
+
+.pagesbutton {
+  margin-top: 6em;
+  margin-left: 3em;
+  margin-right: 3em;
+  background: transparent;
+  border: none;
+  /* border-bottom: 3px solid grey;
+  border-top: 3px solid grey; */
+}
+
+.pagesbutton:hover {
+  margin-top: 6em;
+  /* color: violet; */
+  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, violet 50%);
+}
+
+.circles {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+}
+
+.circle {
+  /* padding: 6em; */
+  margin-top: 4em;
+  margin-left: 2em;
+  width: 15em;
+  height: 15em;
+  /* background: white; */
+}
+
+.rectangle {
+  border: .1em solid black;
+  background: white;
+  width: 23em;
+  height: 11em;
+  margin-top: 5em;
+  margin-left: 4em;
+}
+
+.personal-profile {
+  display: flex;
+  width: 104.2%;
+  position: fixed;
+  margin-left: -3em;
+  max-width: ;
+  background-image: url('https://64.media.tumblr.com/d2863cc738171946a23bc47b11aa4698/e66d2c964f0b8e51-31/s1280x1920/8572c7c4661c3b1c2e0fbe518dd86cf8d85edde0.jpg');
+  height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
