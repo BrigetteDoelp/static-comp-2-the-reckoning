@@ -8,17 +8,18 @@ header {
   display: flex;
   flex-wrap: wrap;
   padding-left: 14.2em;
-
+  flex-direction: row;
 }
 
 input {
   padding-left: 2em;
-  padding-right: 47.3em;
+  /* padding-right: 47.3em; */
   padding-top: 1em;
   padding-bottom: 1em;
+  position: relative;
   top: 0;
   border: none;
-  width: 40em;
+  width: 20em;
   /* border-bottom: 1px solid grey; */
 }
 
@@ -29,10 +30,7 @@ input {
 }
 
 .headerbutton {
-  border-top: none;
-  border-bottom: 1px solid grey;
-  border-right: 1px solid grey;
-  border-left: 1px solid grey;
+  border: 1px solid grey;
   padding-top: .30em;
   padding-bottom: .28em;
   padding-left: .5em;
@@ -50,7 +48,7 @@ input {
 /* SIDENAV SECTION */
 
 .sidenav {
-  height: 100%;
+  height: 150%;
   width: 14em;
   position: fixed;
   top: 0;
@@ -67,6 +65,7 @@ input {
 
 .menu {
   line-height: .5em;
+  /* position: fixed; */
 }
 
 .sidenav .mainmenu {
@@ -191,8 +190,13 @@ img.logo {
   color: #6633CC;
 }
 
+.dropdown-content .four {
+  text-decoration: line-through;
+}
+
 .dropdown-content .four:hover {
   color: #00FFFF;
+  text-decoration: line-through;
 }
 
 .dropdown:hover .dropdown-content {
@@ -210,7 +214,11 @@ img.logo {
 main {
   padding-left: 17em;
   padding-top: 3em;
-  line-height: .5em;
+  line-height: 1em;
+}
+
+.general-stats {
+  margin-left: 3em;
 }
 
 .agent-name p {
@@ -295,16 +303,14 @@ main {
 .circles {
   display: flex;
   position: relative;
-  justify-content: space-around;
 }
 
 .circle {
-  /* padding: 6em; */
+  flex-wrap: wrap;
   margin-top: 4em;
   margin-left: 8em;
   width: 15em;
   height: 15em;
-  /* background: white; */
 }
 
 /* .rectangle {
@@ -318,15 +324,41 @@ main {
 
 .personal-profile {
   display: flex;
-  width: 104.2%;
-  position: fixed;
-  /* margin-top: -1em; */
+  flex-direction: column;
+  width: fill;
+  height: 100%;
+  position: relative;
   margin-left: -3em;
   max-width: ;
   background-image: url('https://64.media.tumblr.com/d2863cc738171946a23bc47b11aa4698/e66d2c964f0b8e51-31/s1280x1920/8572c7c4661c3b1c2e0fbe518dd86cf8d85edde0.jpg');
-  height: 100vh;
+  background-repeat: repeat;
 }
 
+.professional-profile {
+  display: flex;
+  flex-direction: row;
+}
+
+.stats {
+  width: 50%;
+  height: 40em;
+  border: 1px solid white;
+  margin-left: 6em;
+  margin-top: 8em;
+  position: absolute;
+}
+
+.stats p {
+  color: white;
+}
+
+.yusuke {
+  width: 50%;
+  height: 40%;
+  position: relative;
+  margin-left: 50%;
+  margin-top: 5%;
+}
 
 
 
