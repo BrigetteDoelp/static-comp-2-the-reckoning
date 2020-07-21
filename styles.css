@@ -31,11 +31,11 @@ input {
 
 .headerbutton {
   border: 1px solid grey;
-  padding-top: .30em;
-  padding-bottom: .28em;
+  padding-top: .3em;
+  padding-bottom: .2em;
   padding-left: .5em;
   padding-right: .5em;
-  margin: -.1em;
+  margin-right: .01em;
   font-size: 2.5em;
   font-family: "Rajdhani";
 }
@@ -328,7 +328,7 @@ main {
   width: fill;
   height: 100%;
   position: relative;
-  margin-left: -3em;
+  margin-left: -2em;
   background-image: url('https://64.media.tumblr.com/d2863cc738171946a23bc47b11aa4698/e66d2c964f0b8e51-31/s1280x1920/8572c7c4661c3b1c2e0fbe518dd86cf8d85edde0.jpg');
   background-repeat: repeat;
 }
