@@ -70,8 +70,17 @@ input {
 
 .sidenav .mainmenu {
   color: #818181;
-  padding: 17em 0 1.5em 2.6em;
+  margin: 17em 0 1.5em 2.6em;
   font-size: 1.2em;
+}
+
+.sidenav .mainmenu:hover {
+  color: #fdec6e;
+  text-shadow:0px 0px 30px #fdec6e;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 .sidenav .mainlist1 {
@@ -204,7 +213,7 @@ img.logo {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #111;
+  background-color: transparent;
 }
 
 .disabled {
@@ -307,10 +316,17 @@ main {
 
 .circle {
   flex-wrap: wrap;
-  margin-top: 4em;
-  margin-left: 8em;
-  width: 15em;
-  height: 15em;
+  margin-top: 2em;
+  margin-left: 1em;
+  width: 12em;
+  height: 12em;
+}
+
+.graph {
+  margin-top: 2.5em;
+  margin-left: 2em;
+  width: 32em;
+  height: 12em;
 }
 
 /* .rectangle {
@@ -328,7 +344,7 @@ main {
   width: fill;
   height: 100%;
   position: relative;
-  margin-left: -2em;
+  margin-left: -2.5em;
   background-image: url('https://64.media.tumblr.com/d2863cc738171946a23bc47b11aa4698/e66d2c964f0b8e51-31/s1280x1920/8572c7c4661c3b1c2e0fbe518dd86cf8d85edde0.jpg');
   background-repeat: repeat;
 }
@@ -343,8 +359,15 @@ main {
   height: 40em;
   border: 1px solid white;
   margin-left: 6em;
-  margin-top: 8em;
+  margin-top: 2em;
   position: absolute;
+}
+
+.stats:hover {
+  box-shadow:0em 0em 4em #00FFFF;
+  transition: all 0.2s ease-in-out;
+  /* transition: box-shadow 1s; */
+
 }
 
 .stats p {
@@ -358,7 +381,40 @@ main {
   height: 40%;
   position: relative;
   margin-left: 50%;
-  margin-top: 5%;
+}
+
+.circle-stats {
+  width: 10em;
+  margin-top: 1.5em;
+  margin-left: 14.9em;
+  font-family: "Rajdhani";
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.circle-stats:hover {
+  box-shadow:0em 0em 4em #00FFFF;
+  transition: all 0.2s ease-in-out;
+}
+
+.graphbutt {
+  width: 10em;
+  margin-top: 1.5em;
+  margin-left: 26em;
+  font-family: "Rajdhani";
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
+.graph-buttons {
+  display: inline;
+}
+
+hr {
+  width: 100%;
+  border: 1px solid white;
+  margin-top: 3em;
 }
 
 
